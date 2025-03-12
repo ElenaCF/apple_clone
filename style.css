@@ -69,9 +69,44 @@ table {
   clear: both;
   *zoom: 1;
 }
+
+/* Fonts */
+
+@font-face {
+  font-family: "Myriad Set Pro Bold";
+  src: url("fonts/myriad-set-pro_bold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Myriad Set Pro Semibold";
+  src: url("fonts/myriad-set-pro_semibold.ttf") format("truetype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Myriad Set Pro Medium";
+  src: url("fonts/myriad-set-pro_medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Myriad Set Pro Text";
+  src: url("fonts/myriad-set-pro_text.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Myriad Set Pro Thin";
+  src: url("fonts/myriad-set-pro_thin.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Myriad Set Pro Ultralight";
+  src: url("fonts/myriad-set-pro_ultralight.ttf") format("truetype");
+  font-weight: 100;
+}
+
+
 /*               End of Setup             */
 
-/*  Header */
+/*               Header                  */
 
 header {
   background-color: #333333;
@@ -88,3 +123,168 @@ nav .container {
   max-width: 1300px;
   margin: 0 auto;
 }
+
+/*               Hero                */
+
+#hero {
+  margin: 20px 0;
+  height: 600px;
+  text-align: center;
+  background-color: #FBFBFD;
+}
+
+/* Text */
+
+#hero h1 {
+  font: 3.5em "Myriad Set Pro Semibold";
+  line-height: 2em;
+
+}
+
+#hero p {
+  font: 1.65em "Myriad Set Pro Medium";
+}
+
+/* Image */
+
+#hero-image {
+  margin: -200px 0;
+  height: 600px;
+  background-image: url(images/hero_iphone_13pro.jpg);
+  background-position: center;
+}
+
+/* Links */
+
+#hero ul {
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+  line-height: 5em;
+}
+
+#hero ul li {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  font: 1.4em "Myriad Set Pro Thin"
+}
+
+/*               Sub Hero                 */
+
+#sub-hero #sub-hero-grid {
+  margin: 30px 0;
+}
+
+#sub-hero #sub-hero-grid .col{
+  display: inline-block;
+  width: 25%;
+  padding: 0 3px;
+}
+
+#sub-hero #sub-hero-grid .col img{
+  width: 100%;
+   height: auto;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+#sub-hero p {
+  font: bold 1.25em "Myriad Set Pro Thin";
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+
+/*             Footer             */
+
+footer {
+  background-color: #F2F2F2;
+  padding: 30px 0;
+}
+
+footer #grid {
+  margin: 0 20%;
+  width: 75%;
+}
+
+/*     Links     */
+
+footer #grid a {
+  color: #8D8E8D;
+}
+
+footer #grid .col{
+  display: inline-block;
+  width: 18%;
+  vertical-align: top;
+}
+
+footer #grid .col ul{
+  line-height: 1.75em;
+  margin: 20px 0;
+}
+
+footer #grid .col ul li h1{
+  font: 1em "Myriad Set Pro Semibold";
+}
+
+footer #grid .col ul li a{
+  font: 1em "Myriad Set Pro Text";
+}
+
+/*     More Ways to Shop    */
+
+footer #grid p {
+  font: 0.85em "Myriad Set Pro Text";
+  color: #adadad;
+}
+
+/* Line */
+
+hr {
+  border: 1px solid #e3e3e3;
+}
+
+/*       Footer Information        */
+
+footer #information-grid {
+  margin: 0 20%;
+  width: 75%;
+  font: 0.85em "Myriad Set Pro Text";
+  color: #adadad;
+}
+
+footer #information-grid a {
+  color: #8D8E8D;
+}
+
+footer #information-grid .col {
+  display: inline-block;
+  padding: 0 15px
+}
+
+footer #information-grid #legal-info {
+  margin: 0 -18px;
+}
+
+footer #information-grid #legal-info .col {
+  margin: 0 -12px;
+}
+
+footer #information-grid #legal-info .col p {
+  margin: 0 40px 0 0;
+}
+
+footer #information-grid #country {
+  margin: 0 0 0 625px;
+}
+
+footer #information-grid #country .col {
+  margin: 0 0 0 -20px;
+}
+
+
+  
+ 
